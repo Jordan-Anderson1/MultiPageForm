@@ -6,7 +6,7 @@ const Tracker = ({pageNumber}) => {
     <div className='relative self-center'>
         <img 
             className='max-h-full py-3 px-3'
-            src='../images/bg-sidebar-desktop.svg'
+            src='/bg-sidebar-desktop.svg'
         />
         <div className='flex flex-row absolute  top-12 left-10'>
             <div className={`border-white border-2 h-11 w-11  rounded-full flex justify-center ${pageNumber === 1 ? 'bg-white' : null}`}>
