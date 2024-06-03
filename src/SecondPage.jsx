@@ -13,7 +13,7 @@ const SecondPage = ({pageNumber, setPageNumber, isYearly, setIsYearly, setPlanNa
         <p className='text-gray-500 font-bold mb-10'>You have the option of monthly or yearly billing</p>
         <div className='flex flex-row justify-between space-x-4 mb-6'>
             <PlanCard
-                src={'../images/icon-arcade.svg'}
+                src={'icon-arcade.svg'}
                 title='Arcade'
                 itemPrice={isYearly? 90 : 9}
                 frequency={isYearly ? 'Yearly' : 'Monthly'}
@@ -22,7 +22,7 @@ const SecondPage = ({pageNumber, setPageNumber, isYearly, setIsYearly, setPlanNa
                 setPlanPrice={setPlanPrice}
                 />
             <PlanCard
-                src={'../images/icon-advanced.svg'}
+                src={'/icon-advanced.svg'}
                 title='Advanced'
                 itemPrice={isYearly ? 120 : 12}
                 frequency={isYearly ? 'Yearly' : 'Monthly'}
@@ -31,7 +31,7 @@ const SecondPage = ({pageNumber, setPageNumber, isYearly, setIsYearly, setPlanNa
                 setPlanPrice={setPlanPrice}
                 />
             <PlanCard
-                src={'../images/icon-pro.svg'}
+                src={'/icon-pro.svg'}
                 title='Pro'
                 itemPrice={isYearly ? 150 : 15}
                 frequency={isYearly ? 'Yearly' : 'Monthly'}
